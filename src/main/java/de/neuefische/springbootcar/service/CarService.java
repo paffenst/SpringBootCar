@@ -13,7 +13,7 @@ import java.util.Map;
 public class CarService {
     private CarRepository carRepository;
 
-    public Map<String,Car> addCar(Car car){
+    public Map<String, Car> addCar(Car car) {
         return carRepository.addCar(car);
     }
 
